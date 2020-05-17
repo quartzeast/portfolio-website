@@ -1,0 +1,65 @@
+/* common styles */
+:root {
+  font-size: 16px;
+  --primary-color: rgba(12, 25, 29, 0.5);
+  --overlay-color: rgba(36, 46, 58, 0.85);
+  --heading-color: #6c757d;
+  --paragraph-color: rgba(0, 0, 0, .5);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  scroll-behavior: smooth;
+}
+
+main section:nth-child(n+2) {
+  margin: auto;
+  padding: 0 1.5rem;
+  padding-bottom: 2rem;
+}
+
+main section:nth-child(even) {
+  background-color: #fff;
+}
+
+main section:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.title {
+  padding: 48px 0;
+}
+
+h1, h5 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h5 {
+  font-weight: 500;
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
