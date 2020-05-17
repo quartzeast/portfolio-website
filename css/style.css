@@ -118,7 +118,7 @@ main section:first-of-type::before {
 .intro .info {
   flex: 3;
   padding-left:15px;
-  padding-right: 100px;
+  padding-right: 80px;
 }
 
 .intro .info > div {
